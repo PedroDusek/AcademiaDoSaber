@@ -55,13 +55,21 @@ document.addEventListener('DOMContentLoaded', function() {
     let tipoSelecionado = false;
     function selectUserType(type) {
         if (!tipoSelecionado) tipoSelecionado = true;
-        botoProfessor.classList.remove('selecionado');
-        botoAluno.classList.remove('selecionado');
+        botoProfessor.classList.remove('selecionado', 'inoperavel');
+        botoAluno.classList.remove('selecionado', 'inoperavel');
+        botoProfessor.style.pointerEvents = 'auto';
+        botoAluno.style.pointerEvents = 'auto';
+        botoProfessor.style.cursor = 'pointer';
+        botoAluno.style.cursor = 'pointer';
         if (type === 'professor') {
-            botoProfessor.classList.add('selecionado');
+            botoProfessor.classList.add('selecionado', 'inoperavel');
+            botoProfessor.style.pointerEvents = 'none';
+            botoProfessor.style.cursor = 'default';
             localStorage.setItem('tipoUsuario', 'professor');
         } else if (type === 'aluno') {
-            botoAluno.classList.add('selecionado');
+            botoAluno.classList.add('selecionado', 'inoperavel');
+            botoAluno.style.pointerEvents = 'none';
+            botoAluno.style.cursor = 'default';
             localStorage.setItem('tipoUsuario', 'aluno');
         } else {
             localStorage.removeItem('tipoUsuario');
@@ -204,12 +212,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Adicionar efeitos visuais
     function adicionarEfeitosVisuais() {
         // Efeito hover nos botões
-        const botoes = [botoProfessor, botoAluno]; // Remover botoEntrar daqui
+        const botoes = [botoProfessor, botoAluno];
         
         botoes.forEach(botao => {
             botao.addEventListener('mouseenter', function() {
-                this.style.transform = 'scale(1.05)';
-                this.style.transition = 'transform 0.2s ease';
+                if (!this.classList.contains('inoperavel')) {
+                    this.style.transform = 'scale(1.05)';
+                    this.style.transition = 'transform 0.2s ease';
+                }
             });
             
             botao.addEventListener('mouseleave', function() {

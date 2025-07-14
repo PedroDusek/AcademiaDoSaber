@@ -55,6 +55,9 @@
     box-sizing: border-box;
     width: 433px;
     height: 83px;
+    border-width: 5px !important;
+    border-style: solid;
+    border-color: #3c1d05;
 }
 .voltar {
     position: absolute;
@@ -97,5 +100,17 @@
     font-size: 40px;
     color: #3c1d05;
     font-family: Baloo;
+}
+.tela-cadastro-concluido-item, .cadastro-concluido, .siga-o-passo-container {
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+}
+.ops-encontramos-um, .usurio-ou-senha-container {
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
 }
 

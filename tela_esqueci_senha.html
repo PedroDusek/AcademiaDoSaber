@@ -43,35 +43,11 @@
     		<div class="fique-tranquilo-estamos">Fique tranquilo, estamos aqui para ajudar você! Preencha o espaço abaixo com o seu email cadastrado. Vamos enviar um email para que você possa redefinir sua senha. </div>
   	</div>
   	
-  	
+    <!-- Popup de aviso de alteração de senha -->
+    <div id="avisoAlterarSenhaBlur" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:9998; backdrop-filter: blur(15px); background: rgba(0,0,0,0.10);"></div>
+    <div id="avisoAlterarSenhaPopup" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:9999;"></div>
   	
   	
 </body>
-<script>
-    // Redirecionamento do botão voltar ao início
-    var groupContainer = document.getElementById("groupContainer");
-    if(groupContainer) {
-        groupContainer.addEventListener("click", function (e) {
-            window.location.href = 'index.html';
-        });
-    }
-    // Ativação do botão ENVIAR EMAIL
-    var inputEmail = document.getElementById("inputEmailRecuperacao");
-    var btnEnviar = document.querySelector(".boto-enviar-cdigo");
-    function checarAtivarBotaoEnviar() {
-        if (inputEmail && btnEnviar) {
-            if (inputEmail.value.trim() !== "") {
-                btnEnviar.classList.add('ativo');
-                btnEnviar.classList.remove('inativo');
-            } else {
-                btnEnviar.classList.remove('ativo');
-                btnEnviar.classList.add('inativo');
-            }
-        }
-    }
-    if (inputEmail && btnEnviar) {
-        btnEnviar.classList.add('inativo');
-        inputEmail.addEventListener('input', checarAtivarBotaoEnviar);
-    }
-</script>
+<script src="./tela_esqueci_senha.js"></script>
 </html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso Alterar Senha</title>
+    <link rel="stylesheet" href="aviso_alterar_senha.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tela-confirmao-senha">
+        <div class="tela-confirmao-senha-child"></div>
+        <div class="tela-confirmao-senha-item"></div>
+        <img class="coruja-logo-sozinha-4" alt="Coruja" src="img/coruja_logo_sozinha.png">
+        <div class="tudo-certo-por">Tudo certo por aqui.</div>
+        <div class="siga-o-passo-container">
+            <p class="siga-o-passo">Siga o passo a passo no seu email</p>
+            <p class="siga-o-passo">para redefinir sua senha.</p>
+        </div>
+        <div class="rectangle-parent" id="voltarInicioBtn">
+            <div class="group-child"></div>
+            <div class="voltar-ao-incio">Voltar ao Início</div>
+        </div>
+    </div>
+    <script>
+    document.getElementById('voltarInicioBtn').addEventListener('click', function() {
+        window.top.location.href = 'index.html';
+    });
+    </script>
+</body>
+</html>
