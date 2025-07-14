@@ -1,0 +1,1178 @@
+.background-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 1024px;
+    object-fit: cover;
+}
+.component-1 {
+    position: absolute;
+    top: 37px;
+    left: 864px;
+    width: 169px;
+    height: 76px;
+}
+.fundo-botes-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #562600;
+}
+.fundo-botes {
+    position: absolute;
+    top: 849px;
+    left: 0px;
+    width: 1440px;
+    height: 175px;
+}
+.background-boto-17 {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 174.9px;
+    object-fit: cover;
+}
+.icone-melhorias {
+    position: absolute;
+    width: 38.47%;
+    top: 8.27px;
+    right: 29.01%;
+    left: 32.52%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 125.3px;
+    object-fit: cover;
+}
+.melhorias {
+    position: absolute;
+    height: 20.09%;
+    width: 44.41%;
+    top: 72.42%;
+    left: 27.62%;
+    display: inline-block;
+}
+.boto-melhorias {
+    position: absolute;
+    top: 849px;
+    left: 0px;
+    width: 288px;
+    height: 175.2px;
+    cursor: pointer;
+}
+.icone-personangens {
+    position: absolute;
+    width: 41.94%;
+    top: 8.06px;
+    right: 29.03%;
+    left: 29.02%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 125.9px;
+    object-fit: cover;
+}
+.personagens {
+    position: absolute;
+    height: 20.09%;
+    width: 58.06%;
+    top: 72.42%;
+    left: 20.98%;
+    display: inline-block;
+}
+.boto-personagens {
+    position: absolute;
+    top: 848px;
+    left: 288px;
+    width: 288px;
+    height: 175.2px;
+    cursor: pointer;
+}
+.background-boto-19 {
+    position: absolute;
+    width: 100%;
+    top: 71px;
+    right: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 174.9px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+.icone-atividades {
+    position: absolute;
+    width: 75%;
+    top: 0px;
+    right: 12.5%;
+    left: 12.5%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 203.7px;
+    object-fit: cover;
+}
+.atividades {
+    position: absolute;
+    height: 14.3%;
+    width: 48.26%;
+    top: 80.37%;
+    left: 25.87%;
+    display: inline-block;
+}
+.boto-atividades {
+    position: absolute;
+    top: 778px;
+    left: 576px;
+    width: 288px;
+    height: 246.2px;
+    opacity: 1;
+}
+.icone-explorar {
+    position: absolute;
+    width: 45.8%;
+    top: 8.06px;
+    right: 27.28%;
+    left: 26.92%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 125.4px;
+    object-fit: cover;
+}
+.explorar {
+    position: absolute;
+    height: 20.09%;
+    width: 38.13%;
+    top: 72.42%;
+    left: 30.77%;
+    display: inline-block;
+}
+.boto-explorar {
+    position: absolute;
+    top: 849px;
+    left: 864px;
+    width: 288px;
+    height: 175.2px;
+    cursor: pointer;
+}
+.icone-ranking {
+    position: absolute;
+    width: 43.72%;
+    top: 8.06px;
+    right: 28.31%;
+    left: 27.97%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 125.9px;
+    object-fit: cover;
+}
+.ranking {
+    position: absolute;
+    height: 20.09%;
+    width: 36.7%;
+    top: 72.42%;
+    left: 31.47%;
+    display: inline-block;
+}
+.boto-ranking {
+    position: absolute;
+    top: 849px;
+    left: 1152px;
+    width: 288px;
+    height: 175.2px;
+    cursor: pointer;
+}
+.moedas-child {
+    position: absolute;
+    height: 46.75%;
+    width: 78.71%;
+    top: 44.16%;
+    right: 0%;
+    bottom: 9.09%;
+    left: 21.29%;
+    border-radius: 15px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.div {
+    position: absolute;
+    height: 46.75%;
+    width: 61.29%;
+    top: 37.66%;
+    left: 34.84%;
+    display: inline-block;
+}
+.currency-regular-icon, .currency-essentia-icon {
+    position: absolute;
+    left: 20px;
+    top: 21px;
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    z-index: 5;
+}
+.moedas1 {
+    position: absolute;
+    height: 37.66%;
+    width: 66.45%;
+    top: 0%;
+    left: 42%;
+    font-size: 28px;
+    text-align: center;
+    display: inline-block;
+}
+.moedas {
+    position: absolute;
+    top: 58px;
+    left: 970px;
+    width: 155px;
+    height: 77px;
+    font-size: 32px;
+}
+.essentia1 {
+    position: absolute;
+    height: 37.66%;
+    width: 71.61%;
+    top: 0%;
+    left: calc(42% - 20px);
+    font-size: 28px;
+    text-align: center;
+    display: inline-block;
+}
+.currency-essentia-icon {
+    position: absolute;
+    width: 30.97%;
+    top: 21px;
+    right: 69.03%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 55.7px;
+    object-fit: cover;
+}
+.essentia {
+    position: absolute;
+    top: 58px;
+    left: 1146px;
+    width: 155px;
+    height: 77px;
+    font-size: 32px;
+}
+.logo-personagem-hercules-1-icon {
+    position: absolute;
+    width: 100.87%;
+    top: 0px;
+    right: -0.87%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 116px;
+    object-fit: cover;
+}
+.icones-perfil {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    width: 115px;
+    height: 115px;
+}
+.base-nome-do-jogador {
+    position: absolute;
+    width: 70.46%;
+    top: 34px;
+    right: 0%;
+    left: 29.54%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 78.8px;
+    object-fit: cover;
+}
+.status-jogador-child {
+    position: absolute;
+    width: 32.82%;
+    top: 0px;
+    right: 67.18%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 149.8px;
+    object-fit: cover;
+}
+.cristina-bicharra {
+    position: absolute;
+    height: 40.67%;
+    width: 56.46%;
+    top: 32%;
+    left: 32.82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.status-jogador {
+    position: absolute;
+    top: 31px;
+    left: 31px;
+    width: 457px;
+    height: 150px;
+    text-align: center;
+    font-size: 25px;
+    color: #622f00;
+    font-family: Cinzel;
+}
+.boto-ajustes-4 {
+    position: absolute;
+    top: 58px;
+    left: 1320px; /* ligeiramente ajustado para caber inteiro */
+    width: 77px;
+    height: 77px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.caixa-atividades-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 20px;
+    background-color: #faba16;
+    border: 5px solid #3c1d05;
+    box-sizing: border-box;
+}
+.ei-voc-tem {
+    margin: 0;
+}
+.ei-voc-tem-container1 {
+    width: 100%;
+}
+.ei-voc-tem-container {
+    position: absolute;
+    height: 44.24%;
+    width: 92.93%;
+    top: 3.96%;
+    left: 3.61%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.soma-e-subtrao-container {
+    position: absolute;
+    height: 44.24%;
+    width: 81.35%;
+    top: 48.2%;
+    left: 9.32%;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.component-4 {
+    position: absolute;
+    height: 21.58%;
+    width: 20.45%;
+    top: 70.5%;
+    right: 10.23%;
+    bottom: 7.91%;
+    left: 69.32%;
+}
+.selecionada1 {
+    position: absolute;
+    height: 100%;
+    width: 95.71%;
+    top: 0%;
+    left: 0%;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.selecionada {
+    position: absolute;
+    height: 16.55%;
+    width: 24.51%;
+    top: 51.08%;
+    right: 9.32%;
+    bottom: 32.37%;
+    left: 66.17%;
+}
+.pendente {
+    position: absolute;
+    height: 100%;
+    width: 95.71%;
+    top: 0%;
+    left: 0%;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+}
+.selecionada2 {
+    position: absolute;
+    height: 16.55%;
+    width: 24.51%;
+    top: 73.02%;
+    right: 9.32%;
+    bottom: 10.43%;
+    left: 66.17%;
+}
+.caixa-atividades {
+    position: absolute;
+    top: 266px;
+    left: 388px;
+    width: 665px;
+    height: 278px;
+}
+.caixa-atividades, .caixa-atividades * {
+    font-family: 'Baloo', cursive !important;
+    color: #3c1d05 !important;
+    font-size: 28px;
+}
+.ei-voc-tem-container, .soma-e-subtrao-container, .selecionada, .selecionada2, .pendente {
+    font-family: 'Baloo', cursive !important;
+    color: #3c1d05 !important;
+}
+.iniciar-atividade-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 20px;
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+}
+.iniciar-atividade1 {
+    position: absolute;
+    height: 100%;
+    width: 99.81%;
+    top: 0%;
+    left: 0.19%;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3c1d05 !important;
+}
+.iniciar-atividade {
+    position: absolute;
+    top: 623px;
+    left: calc(50% - 265px);
+    box-shadow: 2px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 531px;
+    height: 76px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 38px;
+    font-family: Cinzel;
+    border-radius: 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.tela-atividades-2 {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background-color: #000;
+    margin: 0 auto;
+    box-shadow: 0 0 32px 0 rgba(0,0,0,0.25);
+    overflow: hidden;
+    transform: scale(0.7);
+    transform-origin: center center;
+}
+
+
+.tela-configuraes-child {
+    position: absolute;
+    top: 0px;
+    left: 1033px;
+    background-color: #e6ca8a;
+    border: 5px solid #3c1d05;
+    box-sizing: border-box;
+    width: 407px;
+    height: 1024px;
+}
+.configuraes {
+    position: absolute;
+    top: 83px;
+    left: 1081px;
+    font-size: 32px;
+    font-weight: 900;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+    width: 311px;
+    height: 56px;
+}
+.minha-turma {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 311px;
+    height: 56px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 206px;
+    left: 1081px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 311px;
+    height: 56px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 303px;
+    left: 1081px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 311px;
+    height: 56px;
+}
+.rectangle-container {
+    position: absolute;
+    top: 400px;
+    left: 1081px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 311px;
+    height: 56px;
+}
+.group-div {
+    position: absolute;
+    top: 780px;
+    left: 1081px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 311px;
+    height: 56px;
+}
+.rectangle-parent1 {
+    position: absolute;
+    top: 879px;
+    left: 1081px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 311px;
+    height: 56px;
+    cursor: pointer;
+}
+.tela-configuraes-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(217, 217, 217, 0.01);
+    width: 1033px;
+    height: 1024px;
+}
+.tela-configuraes {
+    width: 1440px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    height: 1024px;
+    overflow: hidden;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+    font-size: 26px;
+    color: #3c1d05;
+    font-family: Cinzel;
+}
+
+
+.tela-personalizar-perfil-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(217, 217, 217, 0.01);
+    width: 1440px;
+    height: 1024px;
+}
+.tela-personalizar-perfil-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(217, 217, 217, 0.01);
+    width: 172px;
+    height: 1024px;
+}
+.tela-personalizar-perfil-inner {
+    position: absolute;
+    top: 0px;
+    left: 1268px;
+    background-color: rgba(217, 217, 217, 0.01);
+    width: 172px;
+    height: 1024px;
+}
+.tela-personalizar-perfil-child1 {
+    position: absolute;
+    top: 869px;
+    left: 1268px;
+    background-color: rgba(217, 217, 217, 0.01);
+    width: 155px;
+    height: 1096px;
+    transform:  rotate(90deg);
+    transform-origin: 0 0;
+}
+.tela-personalizar-perfil-child2 {
+    position: absolute;
+    top: 0px;
+    left: 1268px;
+    background-color: rgba(217, 217, 217, 0.01);
+    width: 168px;
+    height: 1096px;
+    transform:  rotate(90deg);
+    transform-origin: 0 0;
+}
+.group-child2 {
+    position: absolute;
+    top: calc(50% - 350.5px);
+    left: calc(50% - 548px);
+    border-radius: 50px;
+    background-color: #e6ca8a;
+    border: 8px solid #3c1d05;
+    box-sizing: border-box;
+    width: 1096px;
+    height: 701px;
+}
+.logo-personagem-hercules-1-icon1 {
+    position: absolute;
+    width: 100.87%;
+    top: 0px;
+    right: -0.87%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 116px;
+    object-fit: cover;
+}
+.icones-perfil1 {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    width: 115px;
+    height: 115px;
+}
+.base-nome-do-jogador1 {
+    position: absolute;
+    width: 70.46%;
+    top: 34px;
+    right: 0%;
+    left: 29.54%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 78.8px;
+    object-fit: cover;
+}
+.status-jogador-item {
+    position: absolute;
+    width: 32.82%;
+    top: 0px;
+    right: 67.18%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 149.8px;
+    object-fit: cover;
+}
+.cristina-bicharra1 {
+    position: absolute;
+    height: 40.67%;
+    width: 56.46%;
+    top: 32%;
+    left: 32.82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.status-jogador1 {
+    position: absolute;
+    top: 25px;
+    left: 58px;
+    filter: drop-shadow(4px 6px 4px rgba(0, 0, 0, 0.25));
+    width: 457px;
+    height: 150px;
+    color: #622f00;
+}
+.icones-perfil2 {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 115px;
+    height: 115px;
+}
+.ellipse-div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: rgba(217, 217, 217, 0);
+    border: 5px solid #3c1d05;
+    box-sizing: border-box;
+    width: 121px;
+    height: 121px;
+}
+.icones-perfil-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 116px;
+    height: 116px;
+}
+.group-wrapper {
+    position: absolute;
+    top: 234px;
+    left: 58px;
+    width: 116px;
+    height: 116px;
+}
+.logo-personagem-pilar-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.icones-perfil3 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 115px;
+    height: 115px;
+}
+.group-container {
+    position: absolute;
+    top: 234px;
+    left: 230px;
+    width: 116px;
+    height: 116px;
+}
+.group-frame {
+    position: absolute;
+    top: 234px;
+    left: 403px;
+    width: 116px;
+    height: 116px;
+}
+.group-child5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+    width: 257px;
+    height: 75px;
+}
+.fechar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 257px;
+    height: 75px;
+}
+.rectangle-parent3 {
+    position: absolute;
+    top: 73px;
+    left: 748px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 257px;
+    height: 75px;
+    font-size: 26px;
+}
+.icones-perfil-parent1 {
+    position: absolute;
+    top: 233px;
+    left: 11px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 116px;
+    height: 116px;
+}
+.icones-perfil-parent2 {
+    position: absolute;
+    top: 233px;
+    left: 183px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 116px;
+    height: 116px;
+}
+.icones-perfil-parent3 {
+    position: absolute;
+    top: 233px;
+    left: 356px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 116px;
+    height: 116px;
+}
+.icones-perfil8 {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 115px;
+    height: 115px;
+}
+.icones-perfil-parent4 {
+    position: absolute;
+    top: 1px;
+    left: 529px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 116px;
+    height: 116px;
+}
+.icones-perfil-parent5 {
+    position: absolute;
+    top: 232px;
+    left: 529px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 116px;
+    height: 116px;
+}
+.icones-perfil-parent6 {
+    position: absolute;
+    top: 0px;
+    left: 702px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 116px;
+    height: 116px;
+}
+.icones-perfil-parent7 {
+    position: absolute;
+    top: 233px;
+    left: 702px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 116px;
+    height: 116px;
+}
+.icones-perfil12 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 115px;
+    height: 115px;
+}
+.icones-perfil-parent8 {
+    position: absolute;
+    top: 1px;
+    left: 876px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 116px;
+    height: 116px;
+}
+.icones-perfil-parent9 {
+    position: absolute;
+    top: 232px;
+    left: 876px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 116px;
+    height: 116px;
+}
+.group-child15 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+    width: 137px;
+    height: 45px;
+}
+.bloqueado {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 137px;
+    height: 45px;
+}
+.rectangle-parent4 {
+    position: absolute;
+    top: 129px;
+    left: 519px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 137px;
+    height: 45px;
+}
+.rectangle-parent5 {
+    position: absolute;
+    top: 362px;
+    left: 519px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 137px;
+    height: 45px;
+}
+.rectangle-parent6 {
+    position: absolute;
+    top: 362px;
+    left: 346px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 137px;
+    height: 45px;
+}
+.rectangle-parent7 {
+    position: absolute;
+    top: 362px;
+    left: 171px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 137px;
+    height: 45px;
+}
+.rectangle-parent8 {
+    position: absolute;
+    top: 362px;
+    left: 0px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 137px;
+    height: 45px;
+}
+.rectangle-parent9 {
+    position: absolute;
+    top: 129px;
+    left: 692px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 137px;
+    height: 45px;
+}
+.rectangle-parent10 {
+    position: absolute;
+    top: 362px;
+    left: 692px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 137px;
+    height: 45px;
+}
+.rectangle-parent11 {
+    position: absolute;
+    top: 129px;
+    left: 865px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 137px;
+    height: 45px;
+}
+.rectangle-parent12 {
+    position: absolute;
+    top: 362px;
+    left: 865px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 137px;
+    height: 45px;
+}
+.bloqueados {
+    position: absolute;
+    top: 234px;
+    left: 47px;
+    width: 1002px;
+    height: 407px;
+    font-size: 20px;
+}
+.rectangle-parent2 {
+    position: absolute;
+    top: calc(50% - 344px);
+    left: calc(50% - 548px);
+    width: 1096px;
+    height: 701px;
+    font-size: 25px;
+}
+.equipar-hercules-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+}
+.equipado {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.equipar-hercules {
+    position: absolute;
+    top: 531px;
+    left: 219px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 137px;
+    height: 45px;
+    opacity: 0.7;
+}
+.equipar-pilar {
+    position: absolute;
+    top: 531px;
+    left: 390px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 137px;
+    height: 45px;
+}
+.equipar-coruja {
+    position: absolute;
+    top: 531px;
+    left: 565px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 137px;
+    height: 45px;
+}
+.tela-personalizar-perfil {
+    width: 1440px;
+    position: relative;
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.01);
+    height: 1024px;
+    overflow: hidden;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+    font-size: 20px;
+    color: #3c1d05;
+    font-family: Cinzel;
+}
+.moldura-hercules-canto {
+    position: absolute;
+    top: 26px;
+    left: 18px;
+    width: 160px;
+    height: auto;
+    z-index: 10;
+}
+.moedas {
+    position: absolute;
+    top: 58px;
+    left: 970px;
+    width: 155px;
+    height: 77px;
+    font-size: 32px;
+}
+.essentia {
+    position: absolute;
+    top: 58px;
+    left: 1146px;
+    width: 155px;
+    height: 77px;
+    font-size: 32px;
+}
+.moedas1, .essentia1, .moedas > .div, .essentia > .div {
+    font-family: 'Baloo', cursive !important;
+    color: #3c1d05 !important;
+}
+.moedas .caixa-quantidade {
+    width: 125px;
+    left: 36px;
+}
+.essentia .caixa-quantidade {
+    left: 37px;
+}
+.caixa-quantidade {
+    position: absolute;
+    top: 32px;
+    left: 42px;
+    width: 115px;
+    height: 36px;
+    background: #faba16;
+    border: 2px solid #3c1d05;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+}
+.caixa-quantidade .div {
+    position: static;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Baloo', cursive;
+    color: #3c1d05;
+    font-weight: bold;
+    z-index: 3;
+}
+.moedas .currency-regular-icon {
+    left: 14px;
+}
+.moedas .moedas1 {
+    left: calc(36% + 5px);
+}
+.moedas .caixa-quantidade .div {
+    margin-top: -6px;
+    margin-left: 12px;
+}
+.essentia .caixa-quantidade .div {
+    margin-top: -6px;
+    margin-left: -35px;
+}
+.melhorias, .personagens, .atividades, .explorar, .ranking {
+    font-family: 'Baloo', cursive !important;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 28px;
+    color: #3c1d05 !important;
+}
+

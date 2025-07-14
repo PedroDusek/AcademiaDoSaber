@@ -408,6 +408,18 @@
     transform: scale(1.07);
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
 .tela-login {
     width: 1440px;
     height: 1024px;
@@ -419,6 +431,8 @@
     color: #fff;
     font-family: Cinzel;
     margin: 0 auto;
+    transform: scale(0.7);
+    transform-origin: center center;
 }
 
 .boto-tipo-de-acesso,

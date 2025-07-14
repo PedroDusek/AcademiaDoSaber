@@ -22,7 +22,7 @@
 .coruja-logo-sozinha-4 {
     position: absolute;
     top: 21px;
-    left: 1020px;
+    left: 600px;
     width: 257px;
     height: 320px;
     object-fit: cover;
@@ -83,16 +83,41 @@
     background-color: #ffd600;
     transform: scale(1.07);
 }
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
 .tela-confirmao-senha {
-    width: 100%;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0);
+    width: 1440px;
     height: 1024px;
+    position: relative;
     overflow: hidden;
     text-align: center;
     font-size: 40px;
     color: #3c1d05;
     font-family: Baloo;
+    margin: 0 auto;
+    transform: scale(0.7);
+    transform-origin: center center;
+}
+
+.tela-confirmao-senha::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    z-index: -1;
 }
 .tela-confirmao-senha-item,
 .tudo-certo-por,
