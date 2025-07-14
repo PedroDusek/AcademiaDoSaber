@@ -1,0 +1,510 @@
+/* Fundo da tela de login */
+.background-login-icon {
+    position: absolute;
+    top: calc(50% - 512px);
+    left: calc(50% - 720px);
+    width: 1440px;
+    height: 1024px;
+    object-fit: cover;
+}
+
+.cadastre-se-aqui {
+    position: absolute;
+    top: 863px;
+    left: 410px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 267px;
+    height: 33px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.esqueci-minha-senha {
+    position: absolute;
+    top: 863px;
+    left: 701px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 329px;
+    height: 33px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.logo-academia-do-saber-1 {
+    position: absolute;
+    top: 37px;
+    left: calc(50% - 193px);
+    width: 386px;
+    height: 388px;
+    object-fit: cover;
+}
+
+.login-e-senha-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+}
+
+.nome-ou-email {
+    position: absolute;
+    height: 100%;
+    width: 77.11%;
+    top: 0%;
+    left: 20.4%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Cinzel;
+    font-weight: bold;
+}
+
+.nome-ou-email::placeholder {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Cinzel;
+    font-weight: bold;
+}
+
+.icon {
+    position: absolute;
+    height: 75.11%;
+    width: 66.67%;
+    top: 12.5%;
+    right: 16.67%;
+    bottom: 12.39%;
+    left: 16.67%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.user {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    overflow: hidden;
+}
+
+.user-wrapper {
+    position: absolute;
+    height: 81.82%;
+    width: 11.19%;
+    top: 9.09%;
+    right: 85.07%;
+    bottom: 9.09%;
+    left: 3.73%;
+}
+
+.login-e-senha {
+    position: absolute;
+    top: 566px;
+    left: calc(50% - 233px + 40px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 402px;
+    height: 55px;
+    text-align: left;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.boto-tipo-de-acesso {
+    position: absolute;
+    height: 100%;
+    width: 46.98%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 53.02%;
+    border-radius: 15px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    opacity: 1 !important;
+    transition: opacity 0.2s;
+}
+
+.boto-tipo-de-acesso1 {
+    position: absolute;
+    height: 100%;
+    width: 46.98%;
+    top: 0%;
+    right: 53.02%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 15px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    opacity: 1 !important;
+    background: none;
+    transition: opacity 0.2s;
+}
+
+.boto-tipo-de-acesso.selecionado,
+.boto-tipo-de-acesso1.selecionado {
+    opacity: 0.7 !important;
+}
+
+.boto-tipo-de-acesso-child, .boto-tipo-de-acesso1 .boto-tipo-de-acesso-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 15px;
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+.sou-professor {
+    position: absolute;
+    height: 100%;
+    width: 99.68%;
+    top: 0%;
+    left: 0.32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3c1d05;
+    font-size: 32px;
+    font-family: Cinzel;
+    font-weight: 900;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: color 0.2s, font-weight 0.2s;
+}
+
+.boto-tipo-de-acesso.selecionado .sou-professor,
+.boto-tipo-de-acesso1.selecionado .sou-professor {
+    color: #3c1d05;
+    font-weight: 900;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.seleao-tipo-de-acesso {
+    position: absolute;
+    top: 461px;
+    left: calc(50% - 331px);
+    width: 662px;
+    height: 62px;
+    font-size: 32px;
+    color: #3c1d05;
+}
+
+.sua-senha {
+    position: absolute;
+    height: 100%;
+    width: 77.11%;
+    top: 0%;
+    left: 20.15%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Cinzel;
+    font-weight: bold;
+    padding-right: 48px;
+    box-sizing: border-box;
+}
+
+.sua-senha::placeholder {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Cinzel;
+    font-weight: bold;
+}
+
+.icon1 {
+    position: absolute;
+    height: 83.42%;
+    width: 75%;
+    top: 8.33%;
+    right: 12.5%;
+    bottom: 8.25%;
+    left: 12.5%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.lock {
+    position: absolute;
+    height: 69.09%;
+    width: 9.45%;
+    top: 14.55%;
+    right: 86.07%;
+    bottom: 16.36%;
+    left: 4.48%;
+    overflow: hidden;
+}
+
+.icon2 {
+    position: absolute;
+    height: 91.76%;
+    width: 91.76%;
+    top: 4.17%;
+    right: 4.07%;
+    bottom: 4.07%;
+    left: 4.17%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.eye-off {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.olhar-senha {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.icon2#iconeOlhoSenha {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.login-e-senha1 {
+    position: absolute;
+    top: 640px;
+    left: calc(50% - 233px + 40px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 402px;
+    height: 55px;
+    text-align: left;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.boto-revelarocultar-senha {
+    position: absolute;
+    top: 650px;
+    left: 901px;
+    background-color: #d9d9d9;
+    width: 35px;
+    height: 35px;
+    opacity: 0.01;
+}
+
+.caixa-seleo-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #3c1d05;
+    font-weight: bold;
+    transition: color 0.2s, font-size 0.2s;
+}
+
+.caixa-seleo-child.checked {
+    color: #3c1d05;
+    font-size: 38px;
+}
+
+.caixa-seleo {
+    position: absolute;
+    top: 712px;
+    left: 545px;
+    width: 38px;
+    height: 38px;
+}
+
+.me-mantenha-logado {
+    position: absolute;
+    top: 719px;
+    left: 590px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 306px;
+    height: 24px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+.boto-entrar {
+    position: absolute;
+    top: 771px;
+    left: calc(50% - 155px + 5px);
+    border-radius: 15px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    width: 311px;
+    height: 62px;
+    opacity: 0.7;
+    font-size: 36px;
+    color: #3c1d05;
+    cursor: default;
+    background: #faba16;
+    transition: opacity 0.2s, cursor 0.2s, background 0.2s, transform 0.2s;
+}
+
+.boto-entrar.ativo {
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+.boto-entrar.ativo:hover, .boto-entrar.ativo:focus {
+    background: #ffd600;
+    transform: scale(1.07);
+}
+
+.tela-login {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-family: Cinzel;
+    margin: 0 auto;
+}
+
+.boto-tipo-de-acesso,
+.boto-tipo-de-acesso1,
+.sou-professor {
+    cursor: pointer;
+}
+
+.caixa-seleo,
+.me-mantenha-logado {
+    cursor: pointer;
+}
+
+.erro-login-modal {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.erro-login-blur {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.15);
+    backdrop-filter: blur(15px);
+    z-index: 1;
+}
+.tela-erro-login {
+    position: relative;
+    z-index: 2;
+    margin-top: 40px;
+    width: 540px;
+    min-height: 320px;
+    background: #faba16;
+    border: 5px solid #3c1d05;
+    border-radius: 36px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 70px 32px 24px 32px;
+}
+.tela-erro-login .ops-encontramos-um,
+.tela-erro-login .usurio-ou-senha-container {
+    color: #3c1d05;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.25);
+    font-family: Cinzel, serif;
+    font-weight: 900;
+    font-size: 1.6em;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.tela-erro-login .usurio-ou-senha-container {
+    margin-bottom: 50px;
+}
+#erroLoginVoltar {
+    margin: 32px auto 0 auto;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-family: Cinzel, serif;
+    font-weight: 900;
+    color: #3c1d05;
+    cursor: pointer;
+    background: #faba16;
+    border: 3px solid #3c1d05;
+    border-radius: 15px;
+    box-shadow: 4px 6px 4px rgba(0,0,0,0.5);
+    height: 60px;
+    transition: background 0.2s, color 0.2s;
+}
+#erroLoginVoltar:hover {
+    background: #ffd86b;
+    color: #3c1d05;
+}
+
+.erro-login-modal .coruja-logo-sozinha-4 {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 140px;
+    object-fit: contain;
+    z-index: 3;
+} 
+
+.boto-entrar .boto-tipo-de-acesso-child {
+    background: transparent !important;
+} 

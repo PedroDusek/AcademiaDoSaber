@@ -1,0 +1,406 @@
+/* Estilos principais da tela de cadastro */
+.background-login-icon {
+    position: absolute;
+    top: calc(50% - 512px);
+    left: calc(50% - 720px);
+    width: 1440px;
+    height: 1024px;
+    object-fit: cover;
+}
+.voltar {
+    margin: 0;
+}
+.voltar-ao-incio-container1 {
+    width: 100%;
+}
+.voltar-ao-incio-container {
+    position: absolute;
+    top: 119px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    width: 158px;
+    height: 83px;
+}
+.keyboard-return-icon {
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    width: 149px;
+    height: 149px;
+    box-shadow: none;
+    border-radius: 50%;
+}
+.voltar-ao-incio-parent {
+    position: absolute;
+    top: 758px;
+    left: 1187px;
+    width: 158px;
+    height: 202px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+}
+.botes-cadastro-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+}
+.nome-e-sobrenome {
+    position: absolute;
+    height: 100%;
+    width: 53.57%;
+    top: 0%;
+    left: 4.64%;
+    display: flex;
+    align-items: center;
+}
+.botes-cadastro {
+    position: absolute;
+    top: 315px;
+    left: 440px;
+    width: 560px;
+    height: 55px;
+}
+.botes-cadastro1 {
+    position: absolute;
+    top: 389px;
+    left: 440px;
+    width: 560px;
+    height: 55px;
+}
+.email {
+    position: absolute;
+    height: 100%;
+    width: 17.14%;
+    top: 0%;
+    left: 4.64%;
+    display: flex;
+    align-items: center;
+}
+.botes-cadastro2 {
+    position: absolute;
+    top: 463px;
+    left: 440px;
+    width: 560px;
+    height: 55px;
+}
+.confirmar-email {
+    position: absolute;
+    height: 100%;
+    width: 48.04%;
+    top: 0%;
+    left: 4.64%;
+    display: flex;
+    align-items: center;
+}
+.botes-cadastro3 {
+    position: absolute;
+    top: 537px;
+    left: 440px;
+    width: 560px;
+    height: 55px;
+}
+.senha {
+    position: absolute;
+    height: 100%;
+    width: 17.5%;
+    top: 0%;
+    left: 4.64%;
+    display: flex;
+    align-items: center;
+}
+.icon {
+    position: absolute;
+    height: 91.67%;
+    width: 91.67%;
+    top: 4.17%;
+    right: 4.17%;
+    bottom: 4.17%;
+    left: 4.17%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.eye-off {
+    position: absolute;
+    height: 54.55%;
+    width: 5.36%;
+    top: 21.82%;
+    right: 2.68%;
+    bottom: 23.64%;
+    left: 91.96%;
+    overflow: hidden;
+}
+.botes-cadastro4 {
+    position: absolute;
+    top: 611px;
+    left: 440px;
+    width: 560px;
+    height: 55px;
+}
+.confirmar-senha {
+    position: absolute;
+    height: 100%;
+    width: 48.93%;
+    top: 0%;
+    left: 4.64%;
+    display: flex;
+    align-items: center;
+}
+.botes-cadastro5 {
+    position: absolute;
+    top: 685px;
+    left: 440px;
+    width: 560px;
+    height: 55px;
+}
+.tela-cadastro-child {
+    position: absolute;
+    top: 697px;
+    left: 955px;
+    background-color: rgba(217, 217, 217, 0.01);
+    width: 30px;
+    height: 30px;
+    opacity: 0.01;
+}
+.boto-aluno-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 15px;
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+}
+.sou-aluno {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boto-aluno {
+    position: absolute;
+    height: 30.85%;
+    width: 100%;
+    top: 69.15%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.coruja-logo-sozinha-1 {
+    position: absolute;
+    width: 50.42%;
+    top: 0px;
+    right: 25%;
+    left: 24.58%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 148.5px;
+    object-fit: cover;
+}
+.coruja-logo-sozinha-1.coruja-pousada {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.3s;
+    z-index: 10;
+}
+.coruja-professor {
+    transform: translateX(230px) !important;
+}
+.boto-acesso-cadastro {
+    position: absolute;
+    height: 100%;
+    width: 42.14%;
+    top: 0%;
+    right: 57.86%;
+    bottom: 0%;
+    left: 0%;
+}
+.sou-professor {
+    position: absolute;
+    height: 100%;
+    width: 99.68%;
+    top: 0%;
+    left: 0.32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boto-acesso-cadastro1 {
+    position: absolute;
+    height: 30.85%;
+    width: 55.54%;
+    top: 69.15%;
+    right: 0%;
+    bottom: 0%;
+    left: 44.46%;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.botao-acesso-cadastro-dupla {
+    position: absolute;
+    top: 71px;
+    left: 440px;
+    width: 560px;
+    height: 201px;
+    text-align: center;
+    font-size: 32px;
+    color: #3c1d05;
+}
+
+/* Centralização da tela */
+.tela-cadastro {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-family: Cinzel;
+    margin: 0 auto;
+}
+
+/* Campos alinhados */
+.botes-cadastro,
+.botes-cadastro1,
+.botes-cadastro2,
+.botes-cadastro3,
+.botes-cadastro4,
+.botes-cadastro5 {
+    left: 440px;
+}
+
+/* Inputs visíveis e integrados */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    height: 100%;
+    width: calc(100% - 60px);
+    color: #3c1d05;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 28px;
+    font-family: Cinzel, serif;
+    font-weight: bold;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+input::placeholder {
+    color: #3c1d05;
+    opacity: 0.8;
+    font-family: Cinzel, serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Botões de seleção e enviar com sombra arredondada */
+.boto-aluno,
+.boto-acesso-cadastro1,
+.boto-enviar {
+    border-radius: 15px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Botão ENVIAR deslocado para a direita */
+.boto-enviar {
+    position: absolute;
+    top: 771px;
+    left: 555px;
+    width: 311px;
+    height: 62px;
+    border-radius: 15px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    opacity: 0.7;
+    font-size: 36px;
+    color: #3c1d05;
+    cursor: pointer;
+    transition: opacity 0.2s, cursor 0.2s;
+}
+
+.botes-cadastro4 .eye-off, .botes-cadastro5 .eye-off {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+.botes-cadastro4 .eye-off .icon,
+.botes-cadastro5 .eye-off .icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    position: static;
+}
+.voltar-ao-incio-container .voltar {
+    text-shadow: 2px 4px 8px rgba(0,0,0,0.5);
+}
+.voltar-ao-incio-parent:hover .voltar {
+    color: #faba16;
+    transition: color 0.3s, transform 0.2s;
+}
+.voltar-ao-incio-parent:hover {
+    transform: scale(1.07);
+    transition: transform 0.2s;
+}
+.voltar-ao-incio-parent {
+    transition: transform 0.2s;
+}
+.voltar-ao-incio-parent:hover .keyboard-return-icon {
+    filter: sepia(1) hue-rotate(-15deg) saturate(7) brightness(1.08) contrast(1.08);
+    transition: filter 0.3s;
+}
+.keyboard-return-icon {
+    transition: filter 0.3s;
+}
+
+.boto-acesso-cadastro,
+.boto-acesso-cadastro1,
+.sou-aluno,
+.sou-professor {
+    cursor: pointer;
+}
+
+.boto-acesso-cadastro:hover, .boto-acesso-cadastro1:hover, .boto-enviar:hover {
+    transform: scale(1.08);
+    transition: transform 0.2s;
+}
+
+/* Fim dos estilos da tela de cadastro */
+

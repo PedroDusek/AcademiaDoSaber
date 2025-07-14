@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./pagina_login.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo:wght@400&display=swap" />
+  	<link rel="stylesheet"  href="./erro_login.css" />
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="tela-login">
+    		<img class="background-login-icon" alt="" src="img/fundo_login.jpg">
+    		
+    		<div class="cadastre-se-aqui" id="cADASTRESEAQUIText">CADASTRE-SE AQUI</div>
+    		<div class="esqueci-minha-senha" id="eSQUECIMINHASENHA">ESQUECI MINHA SENHA</div>
+    		<img class="logo-academia-do-saber-1" alt="" src="img/logo_academia_do_saber.png">
+    		
+    		<div class="login-e-senha">
+      			<div class="login-e-senha-child">
+      			</div>
+      			<input type="text" class="nome-ou-email" placeholder="nome ou email" id="inputNomeEmail">
+      			<div class="user-wrapper">
+        				<div class="user">
+          					<img class="icon" alt="" src="img/icone_usuario_login.png">
+        				</div>
+      			</div>
+    		</div>
+    		<div class="seleao-tipo-de-acesso">
+      			<div class="boto-tipo-de-acesso">
+        				<div class="boto-tipo-de-acesso-child">
+        				</div>
+        				<b class="sou-professor">SOU PROFESSOR</b>
+      			</div>
+      			<div class="boto-tipo-de-acesso1">
+        				<div class="boto-tipo-de-acesso-child">
+        				</div>
+        				<b class="sou-professor">SOU ALUNO</b>
+      			</div>
+    		</div>
+    		<div class="login-e-senha1">
+      			<div class="login-e-senha-child">
+      			</div>
+      			<input type="password" class="sua-senha" placeholder="Sua Senha" id="inputSenha">
+      			<div class="lock">
+        				<img class="icon1" alt="" src="img/icone_cadeado_senha.png">
+      			</div>
+      			<div class="olhar-senha">
+        				<div class="eye-off">
+          					<img class="icon2" id="iconeOlhoSenha" alt="" src="img/olho_fechado_senha.png">
+        				</div>
+      			</div>
+    		</div>
+    		<div class="boto-revelarocultar-senha">
+    		</div>
+    		<div class="caixa-seleo">
+      			<div class="caixa-seleo-child">
+      			</div>
+    		</div>
+    		<div class="me-mantenha-logado">Me Mantenha Logado</div>
+    		<div class="boto-entrar">
+      			<div class="boto-tipo-de-acesso-child">
+      			</div>
+      			<b class="sou-professor">ENTRAR</b>
+    		</div>
+  	</div>
+  	
+  	
+  	
+  	
+  	<script src="./pagina_login.js"></script>
+    <!-- Modal de erro de login -->
+    <div class="tela-erro-login" id="erroLoginModal" style="display:none;">
+        <div class="tela-erro-login-child"></div>
+        <img class="coruja-logo-sozinha-4" alt="" src="img/coruja_logo_sozinha.png">
+        <div class="ops-encontramos-um">Ops... encontramos um erro</div>
+        <div class="usurio-ou-senha-container">
+            <p class="usurio-ou-senha">Usuário ou senha incorreto.</p>
+            <p class="usurio-ou-senha">Tente novamente.</p>
+        </div>
+        <div class="rectangle-parent" id="erroLoginVoltar">
+            <div class="group-child"></div>
+            <div class="voltar">VOLTAR</div>
+        </div>
+    </div>
+    <div id="erroLoginBlur" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:9998; backdrop-filter: blur(15px); background: rgba(0,0,0,0.10);"></div>
+    <div id="erroLoginPopup" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:9999;"></div>
+</body>
+</html> 

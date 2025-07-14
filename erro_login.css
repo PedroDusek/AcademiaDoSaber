@@ -1,0 +1,88 @@
+.tela-erro-login-child {
+    position: absolute;
+    top: calc(50% - 193px);
+    left: calc(50% - 386px);
+    border-radius: 66px;
+    background-color: #faba16;
+    border: 7px solid #3c1d05;
+    box-sizing: border-box;
+    width: 771px;
+    height: 297px;
+}
+.coruja-logo-sozinha-4 {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    width: 180px;
+    height: auto;
+    z-index: 3;
+}
+.ops-encontramos-um {
+    position: absolute;
+    top: 370px;
+    left: calc(50% - 250px);
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.usurio-ou-senha {
+    margin: 0;
+}
+.usurio-ou-senha-container {
+    position: absolute;
+    top: 460px;
+    left: calc(50% - 252px);
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.group-child {
+    position: absolute;
+    top: calc(50% - 41.5px);
+    left: calc(50% - 216.5px);
+    border-radius: 20px;
+    background-color: transparent;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+    width: 433px;
+    height: 83px;
+}
+.voltar {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 432px;
+    height: 83px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: calc(50% + 159px);
+    left: calc(50% - 217px);
+    box-shadow: 0 4px 16px 0 rgba(60,29,5,0.18);
+    border-radius: 20px;
+    width: 433px;
+    height: 83px;
+    cursor: pointer;
+    font-size: 48px;
+    font-family: Cinzel;
+    background: #faba16;
+}
+.rectangle-parent:hover, .rectangle-parent:focus {
+    transform: scale(1.07);
+    background: #ffd600;
+    transition: transform 0.2s, background 0.2s;
+}
+.tela-erro-login {
+    position: relative;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 40px;
+    color: #3c1d05;
+    font-family: Baloo;
+}
+

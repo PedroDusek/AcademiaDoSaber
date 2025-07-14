@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./erro_login.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo:wght@400&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="tela-erro-login">
+    		<div class="tela-erro-login-child">
+    		</div>
+    		<img class="coruja-logo-sozinha-4" alt="" src="img/coruja_logo_sozinha.png">
+    		
+    		<div class="ops-encontramos-um">Ops... encontramos um erro</div>
+    		<div class="usurio-ou-senha-container">
+      			<p class="usurio-ou-senha">Usuário ou senha incorreto.</p>
+      			<p class="usurio-ou-senha">Tente novamente.</p>
+    		</div>
+    		<div class="rectangle-parent" id="groupContainer">
+      			<div class="group-child">
+      			</div>
+      			<div class="voltar">VOLTAR</div>
+    		</div>
+  	</div>
+  	
+  	
+  	
+  	
+  	<script src="./erro_login.js"></script>
+  	<script>
+    		var groupContainer = document.getElementById("groupContainer");
+    		if(groupContainer) {
+      			groupContainer.addEventListener("click", function (e) {
+        				if (window.parent && typeof window.parent.fecharErroLoginPopup === 'function') {
+            					window.parent.fecharErroLoginPopup();
+        				} else {
+            					window.history.back();
+        				}
+      			});
+    		}</script></body>
+</html>

@@ -1,0 +1,76 @@
+<!-- Início da página de cadastro -->
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="initial-scale=1, width=device-width">
+   <link rel="stylesheet"  href="./tela_cadastro.css" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" />
+</head>
+<body>
+   <div class="tela-cadastro">
+      <img class="background-login-icon" alt="" src="img/fundo_login.jpg">
+      <div class="voltar-ao-incio-parent" id="groupContainer">
+         <b class="voltar-ao-incio-container">
+            <span class="voltar-ao-incio-container1">
+               <p class="voltar">VOLTAR</p>
+               <p class="voltar">ao início</p>
+            </span>
+         </b>
+         <img class="keyboard-return-icon" alt="" src="img/keyboard_return.png">
+      </div>
+      <div class="botes-cadastro">
+         <div class="botes-cadastro-child"></div>
+         <input type="text" class="nome-e-sobrenome" placeholder="Nome e Sobrenome" id="inputNomeSobrenome">
+      </div>
+      <div class="botes-cadastro1">
+         <div class="botes-cadastro-child"></div>
+         <input type="text" class="nome-e-sobrenome" placeholder="Nome de Usuário" id="inputUsuario">
+      </div>
+      <div class="botes-cadastro2">
+         <div class="botes-cadastro-child"></div>
+         <input type="email" class="email" placeholder="Email" id="inputEmail">
+      </div>
+      <div class="botes-cadastro3">
+         <div class="botes-cadastro-child"></div>
+         <input type="email" class="confirmar-email" placeholder="Confirmar Email" id="inputConfirmarEmail">
+      </div>
+      <div class="botes-cadastro4">
+         <div class="botes-cadastro-child"></div>
+         <input type="password" class="senha" placeholder="Senha" id="inputSenhaCadastro">
+         <div class="eye-off">
+            <img class="icon" alt="" src="img/olho_fechado_senha.png">
+         </div>
+      </div>
+      <div class="botes-cadastro5">
+         <div class="botes-cadastro-child"></div>
+         <input type="password" class="confirmar-senha" placeholder="Confirmar Senha" id="inputConfirmarSenha">
+         <div class="eye-off">
+            <img class="icon" alt="" src="img/olho_fechado_senha.png">
+         </div>
+      </div>
+      <div class="tela-cadastro-child"></div>
+      <div class="botao-acesso-cadastro-dupla">
+         <div class="boto-acesso-cadastro" id="botaoAluno">
+            <div class="boto-aluno">
+               <div class="boto-aluno-child"></div>
+               <b class="sou-aluno">SOU ALUNO</b>
+            </div>
+            <img class="coruja-logo-sozinha-1 coruja-pousada" id="corujaAluno" alt="Coruja" src="img/coruja_logo_sozinha.png" style="display:none;">
+         </div>
+         <div class="boto-acesso-cadastro1" id="botaoProfessor">
+            <div class="boto-aluno-child"></div>
+            <b class="sou-professor">SOU PROFESSOR</b>
+            <img class="coruja-logo-sozinha-1 coruja-pousada" id="corujaProfessor" alt="Coruja" src="img/coruja_logo_sozinha.png" style="display:none;">
+         </div>
+      </div>
+      <div class="boto-enviar">
+         <div class="boto-aluno-child"></div>
+         <b class="sou-professor">ENVIAR</b>
+      </div>
+      <div class="tela-cadastro-item"></div>
+   </div>
+   <script src="./tela_cadastro.js"></script>
+</body>
+</html>
+<!-- Fim da página de cadastro -->
