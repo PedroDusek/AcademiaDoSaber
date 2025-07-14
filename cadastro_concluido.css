@@ -1,8 +1,8 @@
 /* Aproveita o mesmo modelo visual da tela de erro_login */
 .tela-erro-login-child {
     position: absolute;
-    top: calc(50% - 193px);
-    left: calc(50% - 386px);
+    top: 319px;
+    left: 334px;
     border-radius: 66px;
     background-color: #faba16;
     border: 7px solid #3c1d05;
@@ -23,7 +23,7 @@
 .ops-encontramos-um {
     position: absolute;
     top: 370px;
-    left: calc(50% - 325px);
+    left: 395px;
     width: 650px;
     text-align: center;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
@@ -37,7 +37,7 @@
 .usurio-ou-senha-container {
     position: absolute;
     top: 460px;
-    left: calc(50% - 325px);
+    left: 395px;
     width: 650px;
     text-align: center;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
@@ -47,8 +47,8 @@
 }
 .group-child {
     position: absolute;
-    top: calc(50% - 41.5px);
-    left: calc(50% - 216.5px);
+    top: 470px;
+    left: 503px;
     border-radius: 20px;
     background-color: transparent;
     border: 3px solid #3c1d05;
@@ -74,8 +74,8 @@
 }
 .rectangle-parent {
     position: absolute;
-    top: calc(50% + 159px);
-    left: calc(50% - 217px);
+    top: 671px;
+    left: 503px;
     box-shadow: 0 8px 24px 0 rgba(60,29,5,0.28);
     border-radius: 20px;
     width: 433px;
@@ -84,6 +84,8 @@
     font-size: 1em;
     font-family: Cinzel, serif;
     background: #faba16;
+    border: 5px solid #3c1d05;
+    box-sizing: border-box;
 }
 .rectangle-parent:hover, .rectangle-parent:focus {
     transform: scale(1.07);
@@ -95,14 +97,14 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
 }
 
 .tela-erro-login {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.7);
     width: 1440px;
     height: 1024px;
     overflow: hidden;
@@ -110,9 +112,6 @@ body {
     font-size: 40px;
     color: #3c1d05;
     font-family: Baloo;
-    margin: 0 auto;
-    transform: scale(0.7);
-    transform-origin: center center;
 }
 
 .tela-erro-login::before {

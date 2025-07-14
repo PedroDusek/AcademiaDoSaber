@@ -9,8 +9,8 @@
 }
 .tela-confirmao-senha-item {
     position: absolute;
-    top: calc(50% - 193px);
-    left: calc(50% - 386px);
+    top: 319px;
+    left: 334px;
     border-radius: 66px;
     background-color: #faba16;
     border: 7px solid #3c1d05;
@@ -30,7 +30,7 @@
 .tudo-certo-por {
     position: absolute;
     top: 360px;
-    left: calc(50% - 182px);
+    left: 538px;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
 }
 .siga-o-passo {
@@ -39,13 +39,13 @@
 .siga-o-passo-container {
     position: absolute;
     top: 450px;
-    left: calc(50% - 305px);
+    left: 415px;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
 }
 .group-child {
     position: absolute;
-    top: calc(50% - 41.5px);
-    left: calc(50% - 265.5px);
+    top: 470px;
+    left: 454px;
     border-radius: 20px;
     background-color: transparent;
     border: 5px solid #3c1d05;
@@ -66,8 +66,8 @@
 }
 .rectangle-parent {
     position: absolute;
-    top: calc(50% + 159px);
-    left: calc(50% - 265px);
+    top: 671px;
+    left: 455px;
     box-shadow: 2px 6px 4px rgba(0, 0, 0, 0.5);
     width: 531px;
     height: 83px;
@@ -77,6 +77,8 @@
     cursor: pointer;
     transition: transform 0.2s, background 0.2s;
     background-color: #faba16;
+    border: 5px solid #3c1d05;
+    box-sizing: border-box;
 }
 .rectangle-parent:hover, .rectangle-parent:focus {
     background: #ffd600;
@@ -88,24 +90,21 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
 }
 
 .tela-confirmao-senha {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.7);
     width: 1440px;
     height: 1024px;
-    position: relative;
     overflow: hidden;
     text-align: center;
     font-size: 40px;
     color: #3c1d05;
     font-family: Baloo;
-    margin: 0 auto;
-    transform: scale(0.7);
-    transform-origin: center center;
 }
 
 .tela-confirmao-senha::before {

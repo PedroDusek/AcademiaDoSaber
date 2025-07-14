@@ -241,7 +241,7 @@
     height: 37.66%;
     width: 71.61%;
     top: 0%;
-    left: calc(42% - 20px);
+    left: 42px;
     font-size: 28px;
     text-align: center;
     display: inline-block;
@@ -477,7 +477,7 @@
 .iniciar-atividade {
     position: absolute;
     top: 623px;
-    left: calc(50% - 265px);
+    left: 454px;
     box-shadow: 2px 6px 4px rgba(0, 0, 0, 0.5);
     width: 531px;
     height: 76px;
@@ -663,8 +663,8 @@ body {
 }
 .group-child2 {
     position: absolute;
-    top: calc(50% - 350.5px);
-    left: calc(50% - 548px);
+    top: 161px;
+    left: 172px;
     border-radius: 50px;
     background-color: #e6ca8a;
     border: 8px solid #3c1d05;
@@ -1024,8 +1024,8 @@ body {
 }
 .rectangle-parent2 {
     position: absolute;
-    top: calc(50% - 344px);
-    left: calc(50% - 548px);
+    top: 168px;
+    left: 172px;
     width: 1096px;
     height: 701px;
     font-size: 25px;
@@ -1158,7 +1158,7 @@ body {
     left: 14px;
 }
 .moedas .moedas1 {
-    left: calc(36% + 5px);
+    left: 61px;
 }
 .moedas .caixa-quantidade .div {
     margin-top: -6px;

@@ -1,8 +1,8 @@
 /* Fundo da tela de login */
 .background-login-icon {
     position: absolute;
-    top: calc(50% - 512px);
-    left: calc(50% - 720px);
+    top: 0px;
+    left: 0px;
     width: 1440px;
     height: 1024px;
     object-fit: cover;
@@ -41,7 +41,7 @@
 .logo-academia-do-saber-1 {
     position: absolute;
     top: 37px;
-    left: calc(50% - 193px);
+    left: 527px;
     width: 386px;
     height: 388px;
     object-fit: cover;
@@ -121,7 +121,7 @@
 .login-e-senha {
     position: absolute;
     top: 566px;
-    left: calc(50% - 233px + 40px);
+    left: 519px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 402px;
     height: 55px;
@@ -206,7 +206,7 @@
 .seleao-tipo-de-acesso {
     position: absolute;
     top: 461px;
-    left: calc(50% - 331px);
+    left: 389px;
     width: 662px;
     height: 62px;
     font-size: 32px;
@@ -306,7 +306,7 @@
 .login-e-senha1 {
     position: absolute;
     top: 640px;
-    left: calc(50% - 233px + 40px);
+    left: 519px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 402px;
     height: 55px;
@@ -376,7 +376,7 @@
 .boto-entrar {
     position: absolute;
     top: 771px;
-    left: calc(50% - 155px + 5px);
+    left: 565px;
     border-radius: 15px;
     box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
     width: 311px;
