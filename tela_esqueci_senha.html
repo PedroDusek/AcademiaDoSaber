@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo:wght@400&display=swap" />
+  	<link rel="stylesheet" href="./tela_esqueci_senha.css" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="tela-esqueci-minha-senha">
+    		<img class="background-login-icon" alt="" src="img/fundo_login.jpg">
+    		
+    		<img class="logo-academia-do-saber-1" alt="" src="img/logo_academia_do_saber.png">
+    		
+    		<div class="caixa-de-email-recuperao">
+      			<div class="caixa-de-email-recuperao-child"></div>
+      			<input type="email" class="email-cadastrado" placeholder="Email Cadastrado" id="inputEmailRecuperacao">
+    		</div>
+    		<div class="boto-enviar-cdigo">
+      			<div class="boto-enviar-cdigo-child">
+      			</div>
+      			<b class="enviar-email">ENVIAR EMAIL</b>
+    		</div>
+    		<div class="voltar-ao-incio-parent" id="groupContainer">
+      			<b class="voltar-ao-incio-container">
+        				<span class="voltar-ao-incio-container1">
+          					<p class="voltar">VOLTAR</p>
+          					<p class="voltar">ao início</p>
+        				</span>
+      			</b>
+      			<img class="keyboard-return-icon" alt="" src="img/keyboard_return.png">
+      			
+    		</div>
+    		<div class="tela-esqueci-minha-senha-child">
+    		</div>
+    		<div class="fique-tranquilo-estamos">Fique tranquilo, estamos aqui para ajudar você! Preencha o espaço abaixo com o seu email cadastrado. Vamos enviar um email para que você possa redefinir sua senha. </div>
+  	</div>
+  	
+  	
+  	
+  	
+</body>
+<script>
+    // Redirecionamento do botão voltar ao início
+    var groupContainer = document.getElementById("groupContainer");
+    if(groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+            window.location.href = 'index.html';
+        });
+    }
+    // Ativação do botão ENVIAR EMAIL
+    var inputEmail = document.getElementById("inputEmailRecuperacao");
+    var btnEnviar = document.querySelector(".boto-enviar-cdigo");
+    function checarAtivarBotaoEnviar() {
+        if (inputEmail && btnEnviar) {
+            if (inputEmail.value.trim() !== "") {
+                btnEnviar.classList.add('ativo');
+                btnEnviar.classList.remove('inativo');
+            } else {
+                btnEnviar.classList.remove('ativo');
+                btnEnviar.classList.add('inativo');
+            }
+        }
+    }
+    if (inputEmail && btnEnviar) {
+        btnEnviar.classList.add('inativo');
+        inputEmail.addEventListener('input', checarAtivarBotaoEnviar);
+    }
+</script>
+</html>

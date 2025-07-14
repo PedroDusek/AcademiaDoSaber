@@ -1,0 +1,209 @@
+.background-login-icon {
+    position: absolute;
+    top: calc(50% - 512px);
+    left: calc(50% - 720px);
+    width: 1440px;
+    height: 1024px;
+    object-fit: cover;
+}
+.logo-academia-do-saber-1 {
+    position: absolute;
+    top: 37px;
+    left: calc(50% - 193px);
+    width: 386px;
+    height: 388px;
+    object-fit: cover;
+}
+.caixa-de-email-recuperao-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+}
+.email-cadastrado {
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 5%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #3c1d05;
+    font-size: 28px;
+    font-family: Cinzel, serif;
+    font-weight: bold;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.email-cadastrado::placeholder {
+    color: #3c1d05;
+    opacity: 0.8;
+    font-family: Cinzel, serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+.caixa-de-email-recuperao {
+    position: absolute;
+    top: 708px;
+    left: calc(50% - 333px);
+    width: 665px;
+    height: 55px;
+    color: rgba(0, 0, 0, 0.75);
+}
+.boto-enviar-cdigo-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 15px;
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+}
+.enviar-email {
+    position: absolute;
+    height: 100%;
+    width: 99.68%;
+    top: 0%;
+    left: 0.32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boto-enviar-cdigo {
+    position: absolute;
+    top: 806px;
+    left: calc(50% - 187px);
+    width: 373px;
+    height: 62px;
+    opacity: 0.7;
+    text-align: center;
+    font-size: 36px;
+}
+.boto-enviar-cdigo.inativo {
+    opacity: 0.7 !important;
+    cursor: default !important;
+    pointer-events: none !important;
+    transform: none !important;
+    transition: none !important;
+}
+.boto-enviar-cdigo.ativo {
+    opacity: 1 !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    transition: opacity 0.2s, cursor 0.2s, transform 0.2s;
+}
+.boto-enviar-cdigo.ativo:hover {
+    transform: scale(1.08);
+    transition: transform 0.2s;
+}
+.boto-enviar-cdigo.ativo:hover .boto-enviar-cdigo-child {
+    background: #ffd600 !important;
+    transition: background 0.2s;
+}
+.voltar {
+    margin: 0;
+    text-shadow: 2px 4px 8px rgba(0,0,0,0.5);
+    cursor: default;
+}
+.voltar-ao-incio-container1 {
+    width: 100%;
+}
+.voltar-ao-incio-container {
+    position: absolute;
+    top: 119px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    width: 158px;
+    height: 83px;
+}
+.keyboard-return-icon {
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    width: 149px;
+    height: 149px;
+    box-shadow: none;
+    border-radius: 50%;
+    transition: filter 0.3s;
+}
+.voltar-ao-incio-parent {
+    position: absolute;
+    top: 758px;
+    left: 1190px;
+    width: 158px;
+    height: 202px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    transition: transform 0.2s;
+}
+.voltar-ao-incio-parent:hover .voltar {
+    color: #faba16;
+    transition: color 0.3s, transform 0.2s;
+}
+.voltar-ao-incio-parent:hover {
+    transform: scale(1.07);
+    transition: transform 0.2s;
+}
+.voltar-ao-incio-parent:hover .keyboard-return-icon {
+    filter: sepia(1) hue-rotate(-15deg) saturate(7) brightness(1.08) contrast(1.08);
+    transition: filter 0.3s;
+}
+.tela-esqueci-minha-senha-child {
+    position: absolute;
+    top: 465px;
+    left: calc(50% - 385px);
+    width: 770px;
+    height: 220px;
+    border-radius: 20px;
+    background-color: #faba16;
+    border: 3px solid #3c1d05;
+    box-sizing: border-box;
+}
+.fique-tranquilo-estamos {
+    position: absolute;
+    top: 530px;
+    left: calc(50% - 325px);
+    width: 650px;
+    height: 90px;
+    font-family: Baloo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 32px;
+    cursor: default;
+}
+.tela-esqueci-minha-senha {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    background-color: #000;
+    overflow: hidden;
+    text-align: left;
+    font-size: 28px;
+    color: #3c1d05;
+    font-family: Cinzel;
+    margin: 0 auto;
+}

@@ -184,8 +184,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     esqueciMinhaSenha.addEventListener('click', function() {
-        alert('Redirecionando para recuperação de senha...');
-        // Aqui você pode adicionar o redirecionamento real
+        window.location.href = 'tela_esqueci_senha.html';
     });
     
     // Carregar estado salvo ao carregar a página
