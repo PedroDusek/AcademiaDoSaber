@@ -133,8 +133,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const alunoSelecionado = botoAluno.classList.contains('selecionado');
         if (nomeEmail && senha && (professorSelecionado || alunoSelecionado)) {
             botoEntrar.classList.add('ativo');
+            botoEntrar.classList.remove('inativo');
         } else {
             botoEntrar.classList.remove('ativo');
+            botoEntrar.classList.add('inativo');
         }
     }
 
@@ -244,6 +246,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Inicializar
     carregarEstadoSalvo();
     adicionarEfeitosVisuais();
+    // Inicializa o botão como inativo
+    botoEntrar.classList.add('inativo');
     
     // Adicionar funcionalidade de teclado
     document.addEventListener('keydown', function(event) {

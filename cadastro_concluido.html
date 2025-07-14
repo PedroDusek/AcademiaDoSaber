@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo:wght@400&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" />
+  	<link rel="stylesheet" href="./cadastro_concluido.css" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="tela-erro-login">
+        <div class="tela-erro-login-child"></div>
+        <img class="coruja-logo-sozinha-4" alt="" src="img/coruja_logo_sozinha.png">
+        <div class="ops-encontramos-um">Cadastro concluído com sucesso</div>
+        <div class="usurio-ou-senha-container">
+            <p class="usurio-ou-senha">Volte para o início para entrar na sua conta.</p>
+        </div>
+        <div class="rectangle-parent" id="groupContainer">
+            <div class="group-child"></div>
+            <div class="voltar">Voltar ao Início</div>
+        </div>
+    </div>
+  	
+  	
+  	
+  	
+  	<script>
+    		var groupContainer = document.getElementById("groupContainer");
+    		if(groupContainer) {
+      			groupContainer.addEventListener("click", function (e) {
+        				window.top.location.href = 'index.html';
+        			});
+    		}</script></body>
+</html>

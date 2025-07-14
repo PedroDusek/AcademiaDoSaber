@@ -1,3 +1,4 @@
+/* Aproveita o mesmo modelo visual da tela de erro_login */
 .tela-erro-login-child {
     position: absolute;
     top: calc(50% - 193px);
@@ -22,8 +23,13 @@
 .ops-encontramos-um {
     position: absolute;
     top: 370px;
-    left: calc(50% - 250px);
+    left: calc(50% - 325px);
+    width: 650px;
+    text-align: center;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    font-family: Baloo, sans-serif;
+    font-weight: 900;
 }
 .usurio-ou-senha {
     margin: 0;
@@ -31,8 +37,13 @@
 .usurio-ou-senha-container {
     position: absolute;
     top: 460px;
-    left: calc(50% - 252px);
+    left: calc(50% - 325px);
+    width: 650px;
+    text-align: center;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    font-family: Baloo, sans-serif;
+    font-weight: 900;
 }
 .group-child {
     position: absolute;

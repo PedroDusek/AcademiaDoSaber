@@ -33,12 +33,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const confirmarSenha = inputConfirmarSenha.value.trim();
         if (nome && usuario && email && confirmarEmail && senha && confirmarSenha) {
             botoEnviar.classList.add('ativo');
-            botoEnviar.style.opacity = '1';
-            botoEnviar.style.cursor = 'pointer';
+            botoEnviar.classList.remove('inativo');
         } else {
             botoEnviar.classList.remove('ativo');
-            botoEnviar.style.opacity = '0.7';
-            botoEnviar.style.cursor = 'default';
+            botoEnviar.classList.add('inativo');
         }
     }
 
@@ -56,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         // Aqui você pode adicionar a lógica de envio do cadastro
-        alert('Cadastro enviado!');
+        // alert('Cadastro enviado!'); // Removido
     });
 
     botaoAluno.addEventListener('click', function() {
@@ -71,6 +69,9 @@ document.addEventListener('DOMContentLoaded', function() {
         inputUsuario.value = '';
         checarAtivarBotaoEnviar();
     });
+
+    // Inicializa o botão como inativo
+    botoEnviar.classList.add('inativo');
 
     // Inicialmente, coruja pousada no botão de aluno
     selecionarTipo('aluno');
@@ -113,4 +114,41 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = 'index.html';
         });
     }
+
+    function mostrarCadastroConcluido() {
+        const popup = document.getElementById('cadastroConcluidoPopup');
+        const blur = document.getElementById('cadastroConcluidoBlur');
+        if (popup) {
+            popup.innerHTML = '<iframe src="cadastro_concluido.html" style="width:100vw;height:100vh;border:none;"></iframe>';
+            popup.style.display = 'block';
+        }
+        if (blur) blur.style.display = 'block';
+    }
+
+    window.fecharCadastroConcluidoPopup = function() {
+        const popup = document.getElementById('cadastroConcluidoPopup');
+        const blur = document.getElementById('cadastroConcluidoBlur');
+        if (popup) {
+            popup.style.display = 'none';
+            popup.innerHTML = '';
+        }
+        if (blur) blur.style.display = 'none';
+    };
+
+    window.addEventListener('message', function(event) {
+        if (event.data && event.data.action === 'fecharCadastroConcluidoPopup') {
+            window.fecharCadastroConcluidoPopup();
+        }
+    });
+
+    // Adicionar evento ao botão ENVIAR
+    setTimeout(() => {
+        const enviarBtn = document.querySelector('.boto-enviar');
+        if (enviarBtn) {
+            enviarBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                mostrarCadastroConcluido();
+            });
+        }
+    }, 100);
 });

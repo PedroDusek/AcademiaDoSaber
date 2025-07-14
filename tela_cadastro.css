@@ -349,6 +349,25 @@ input::placeholder {
     transition: opacity 0.2s, cursor 0.2s;
 }
 
+.boto-enviar.inativo {
+    opacity: 0.7 !important;
+    cursor: default !important;
+    pointer-events: none !important;
+    transform: none !important;
+    transition: none !important;
+}
+.boto-enviar.ativo {
+    opacity: 1 !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    transition: opacity 0.2s, cursor 0.2s, transform 0.2s;
+}
+
+.boto-enviar.ativo:hover .boto-aluno-child {
+    background: #ffd600 !important;
+    transition: background 0.2s;
+}
+
 .botes-cadastro4 .eye-off, .botes-cadastro5 .eye-off {
     width: 34px;
     height: 34px;
