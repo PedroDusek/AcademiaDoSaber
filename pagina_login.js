@@ -321,6 +321,9 @@ document.addEventListener('DOMContentLoaded', function() {
 function mostrarErroLogin() {
     const popup = document.getElementById('erroLoginPopup');
     const blur = document.getElementById('erroLoginBlur');
+    var senhaInput = document.getElementById('inputSenha');
+    senhaInput.value = '';
+    senhaInput.placeholder = 'Sua Senha';
     if (popup) {
         popup.innerHTML = '<iframe src="erro_login.html" style="width:100vw;height:100vh;border:none;"></iframe>';
         popup.style.display = 'block';
