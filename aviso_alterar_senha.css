@@ -29,8 +29,9 @@
 }
 .tudo-certo-por {
     position: absolute;
-    top: 360px;''
-    left: 538px;
+    top: 360px;
+    left: 600px;
+    margin-left: -55px;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
 }
 .siga-o-passo {
