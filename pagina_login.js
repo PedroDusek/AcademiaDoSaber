@@ -124,10 +124,15 @@ document.addEventListener('DOMContentLoaded', function() {
             botoEntrar.style.cursor = 'pointer';
             const originalText = botoEntrar.querySelector('.sou-professor').textContent;
             botoEntrar.querySelector('.sou-professor').textContent = 'ENTRANDO...';
-            setTimeout(() => {
-                alert('Login realizado com sucesso!');
-                botoEntrar.querySelector('.sou-professor').textContent = originalText;
-            }, 2000);
+            if (tipo === 'aluno') {
+                window.location.href = 'tela_atividades_aluno.html';
+            }
+            // Se desejar, pode restaurar o texto do botão aqui, caso não seja aluno
+            else {
+                setTimeout(() => {
+                    botoEntrar.querySelector('.sou-professor').textContent = originalText;
+                }, 2000);
+            }
         } else {
             mostrarErroLogin();
         }
